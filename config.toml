@@ -6,7 +6,7 @@ languageCode = "pt-br"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "pt-br"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "devcows"
+disqusShortname = "Prof. André Salerno, MSc"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
@@ -66,12 +66,12 @@ paginate = 10
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
+    author = "Prof. André Salerno, MSc"
+    defaultKeywords = ["finance", "R Programming", "Python", "Capital de Giro"]
     defaultDescription = "Site template made by devcows using hugo"
 
     # Google Maps API key (if not set will default to not passing a key.)
-    googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
+    googleMapsApiKey = ""
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "green"
@@ -108,8 +108,8 @@ paginate = 10
         <strong>Parahiba Valley</strong>
       </p>
       """
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    latitude = "-23.2209236"
+    longitude = "-45.9111879"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -150,12 +150,12 @@ paginate = 10
     subtitle = "Nossas ideias tem sido somadas a de nossos clientes, parceiros e fornecedores. É nessa hora que os resultados conjuntos desafiam a matemática, e nossa experiência tem resultado em performance superior e vantagem competitiva sustentável"
 
 [params.see_more]
-    enable = false
+    enable = true
     icon = "fa fa-file-code-o"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
+    title = "Conheça os nossos cursos!"
+    subtitle = "Nossa bagagem profissional e acadêmica nos possibilitou criar cursos bem consistentes que permitem a sua efeitva aplicação nos mais variados ambientes de negóicos. E tudo isso, em um ambiente online que poder ser visto na palma da sua mão! Aproveite!"
+    link_url = "https://www.udemy.com/mba-online-fintech-academy-modulo-em-financas/?src=sac&kw=fintech"
+    link_text = "Confira aqui!"
 
 [params.clients]
     enable = false
