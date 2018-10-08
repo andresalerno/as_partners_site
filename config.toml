@@ -1,5 +1,5 @@
 baseurl = "https://example.org"
-title = "Universal"
+title = "AS Partners"
 theme = "hugo-universal-theme"
 themesDir = "./"
 languageCode = "pt-br"
@@ -8,7 +8,13 @@ defaultContentLanguage = "pt-br"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "Prof. André Salerno, MSc"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-62383348-1"
+
+logo = "img/logo.png"
+
+favicon = "img/favicon.ico"
+
+ignoreFiles = ["\\.rmd$", "_files$", "_cache$"]
 
 # Define the number of posts per page
 paginate = 10
@@ -166,6 +172,6 @@ paginate = 10
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
+    enable = false
     title = "Espaço Conhecimento"
     subtitle = "É aqui que compartilhamos as nossas experiências. Confira abaixo alguns exemplos, mas tem muito mais por vir!"
